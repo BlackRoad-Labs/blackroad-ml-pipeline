@@ -41,7 +41,10 @@ class Product:
 
     @property
     def stripe_price_id(self) -> str:
-        """Resolve the Stripe Price ID from the environment at runtime."""
+        """Resolve the Stripe Price ID from the environment at runtime.
+
+        Returns an empty string when the environment variable is not set.
+        """
         return os.environ.get(self.stripe_price_env, "")
 
     def to_dict(self) -> dict:

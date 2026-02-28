@@ -72,6 +72,11 @@ class TestListProducts:
         p = get_product("ml_pipeline_pro")
         assert p.stripe_price_id == "price_abc123"
 
+    def test_stripe_price_empty_when_unset(self, monkeypatch):
+        monkeypatch.delenv("STRIPE_PRICE_PRO", raising=False)
+        p = get_product("ml_pipeline_pro")
+        assert p.stripe_price_id == ""
+
 
 class TestListProductIds:
     def test_returns_all_ids(self):

@@ -79,7 +79,11 @@ class StorageConfig:
 
 @dataclass(frozen=True)
 class PipelineConfig:
-    """Core ML pipeline settings."""
+    """Core ML pipeline settings.
+
+    Note: The parent directory of ``db_path`` is created automatically
+    by :class:`ml_pipeline.MLPipelineOrchestrator` on first use.
+    """
     db_path: str = ""
     log_level: str = "INFO"
     artifact_dir: str = "/artifacts"
