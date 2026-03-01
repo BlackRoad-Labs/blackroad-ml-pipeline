@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Primary sitemap
+Sitemap: https://blackroad.io/sitemap.xml
+
+# Crawl-delay hint (seconds) — optional, respected by some bots
+Crawl-delay: 1
+
+# Disallow nothing — index everything
