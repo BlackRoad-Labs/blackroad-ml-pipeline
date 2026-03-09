@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#000000"/>
+  <rect x="0" y="0" width="1200" height="1" fill="#ffffff"/>
+  <rect x="0" y="629" width="1200" height="1" fill="#ffffff"/>
+  <text x="60" y="220" font-family="monospace" font-size="96" font-weight="bold" fill="#ffffff">BlackRoad</text>
+  <text x="60" y="310" font-family="monospace" font-size="32" fill="#888888">Infrastructure Directory</text>
+  <text x="60" y="380" font-family="monospace" font-size="20" fill="#555555">1 enterprise · 15 orgs · 19 domains</text>
+  <text x="60" y="420" font-family="monospace" font-size="18" fill="#444444">AI · Cloud · Security · OS · Hardware · Quantum · Blockchain</text>
+  <text x="60" y="560" font-family="monospace" font-size="16" fill="#333333">BlackRoad OS, Inc. — Delaware C-Corp</text>
+</svg>
