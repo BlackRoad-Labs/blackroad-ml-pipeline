@@ -1,5 +1,13 @@
 # blackroad-ml-pipeline
 
+> Machine learning pipeline orchestration
+
+Part of the [BlackRoad OS](https://blackroad.io) ecosystem — [BlackRoad-Labs](https://github.com/BlackRoad-Labs)
+
+---
+
+# blackroad-ml-pipeline
+
 > Machine learning pipeline orchestration from ingestion to deployment
 
 Orchestrate end-to-end ML pipelines through five stages: DataIngestion → FeatureEngineering → Training → Evaluation → Deployment. Track all runs, models, and metrics in SQLite.
